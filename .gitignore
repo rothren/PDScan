@@ -217,4 +217,8 @@ pip-log.txt
 #NI things
 *.cws
 *.prj
-
+cvibuild.PDScan/
+cvidistkit.PDScan/
+*.cdb
+*.exe
+*.cds

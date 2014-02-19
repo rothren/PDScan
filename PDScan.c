@@ -65,12 +65,8 @@ int main (int argc, char *argv[])
 	Ini_GetStringIntoBuffer(iniConf,"MAIN","key",KEY,128); 
 	Ini_GetStringIntoBuffer(iniConf,"MAIN","triggerValue",VALUE,128); 
 	
-	
 	Ini_Dispose(iniConf);
-							  
-	
-	
-	
+							
 	/* display the panel and run the user interface */
 	errChk (DisplayPanel (panelHandle));
 	errChk (RunUserInterface ());
